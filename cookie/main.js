@@ -1,7 +1,7 @@
 function setcookie(name,value,exday){
 	var d = 3;
 
-	var expires = d.toGMTString();
+	var expires = d;
 	document.cookie= name+"="+value+";"+expires+";path=/";
 };
 function getcookie(name){
